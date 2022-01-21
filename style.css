@@ -26,18 +26,18 @@ section p{
     font-size: 45px;
 }
 h1.user-name span{
-    color: rgb(209, 99, 117);
+    color: rgb(223, 91, 113);
 }
 .half-item img{
     width: 85%;
 }
-/* flex display */
+/* flex display and big dream section style */
 .flexible-container{
     display: flex;
     justify-content: center;
 }
 .btn-link{
-    background-image: linear-gradient(rgb(223, 130, 146), rgb(216, 79, 102));
+    background-image: linear-gradient(rgb(223, 130, 146), rgb(216, 79, 143));
     color: #fff;
     text-decoration: none;
     padding: 10px 22px;
@@ -67,20 +67,21 @@ h1.user-name span{
 .Experience-section .half-item {
     box-shadow: 5px 5px 5px 5px #888888;
     width: 45%;
-    margin: 75px;
+    margin: 70px;
     padding: 10px 22px;
 }
 .half-item.full-stack{
     border-left: 8px solid;
-    border-image: linear-gradient(rgb(223, 17, 241), rgb(250, 163, 3));
+    border-image: linear-gradient(rgb(223, 2, 243), rgb(250, 163, 3));
     border-image-slice: 1;
 }
 
 .half-item.baby-web{
     border-left: 8px solid;
-    border-image: linear-gradient(rgb(179, 2, 2), rgb(3, 3, 102));
+    border-image: linear-gradient(rgb(236, 3, 3), rgb(3, 3, 102));
     border-image-slice: 1;
 }
+/* footer-section */
 .footer-section{
     text-align: center;
 }
